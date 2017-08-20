@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"Attendance"</string>
+    <string name="less_than">&lt;</string>
+    <string name="underlineforgot"><u>"Forgot Password?"</u></string>
+    <string name="underlinesignup"><u>"Don't have an account yet? Create one now"</u></string>
+    <string name="underlinesignin"><u>"Already have an account?"</u></string>
+</resources>

@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/relative1">
+
+    <RelativeLayout
+        android:id="@+id/relative_within_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#003">
+
+        <Button
+            android:id="@+id/arrow_backword1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add record"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            />
+
+
+
+        <Button
+            android:id="@+id/arrow_forward1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Attendance"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#003"
+        android:orientation="horizontal">
+
+        <Spinner
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:id="@+id/dropdown"
+             android:layout_gravity="center_vertical"
+             android:background="#ffffff"
+             android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <ListView
+         android:layout_width="match_parent"
+         android:layout_height="400dp"
+         android:divider="#000000"
+         android:dividerHeight="2dp"
+         android:visibility="visible"
+         android:id="@+id/listshow">
+    </ListView>
+
+</LinearLayout>
